@@ -16,6 +16,8 @@ Remove columns: Conditioning, Release Loc, and Capture columns
 
 Normalized Occurrence values
 
+Changed all blank cells to "null" string
+
 ```[
   {
     "op": "core/text-transform",
