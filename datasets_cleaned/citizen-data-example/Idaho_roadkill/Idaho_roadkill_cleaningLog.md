@@ -1,6 +1,7 @@
 ## Idaho roadkill cleaning log
-### Fixed improper utf-8 decoding
-### Normalized dates to ISO 8601
+ Fixed improper utf-8 decoding
+ Normalized dates to ISO 8601
+ Converted blank cells to "null"
 
 ```[
   {
