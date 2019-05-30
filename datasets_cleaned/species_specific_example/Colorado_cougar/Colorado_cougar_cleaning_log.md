@@ -1232,4 +1232,37 @@ Normalized Occurrence values
     },
     "description": "Remove rows"
   }
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Age",
+          "expression": "value",
+          "columnName": "Age",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "null"
+      }
+    ],
+    "description": "Mass edit cells in column Age"
+  }
 ]``
