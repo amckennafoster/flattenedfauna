@@ -1,14 +1,15 @@
 Cougar ID,Sex,Age,Date,Location,Occurrence,Status
 AM05,M,5,2010-04-04,Golden,Roadkill,Dead
-AM07,M,,2008-04-19,Highway 7,Roadkill,Dead
-AM09,M,2.5,2008-12-27,Hwy 34 (mile 70),Roadkill,Dead
-AF10,F,,2008-02-13,I-70,Roadkill,Dead
-AF19,F,,2010-11-05,"Foothills Hwy, N.",Roadkill,Dead
-AF11,F,,2008-08-20,US-40/Empire,Roadkill,Dead
-AF37,F,,2009-08-11,I-70,Roadkill,Dead
-AF58,F,,2010-06-03,,Roadkill,Dead
-AM63,M,,2010-09-30,,Roadkill,Dead
-AM78,M,,2011-05-12,Soda Creek/I-70,Roadkill,Dead
-AF91,F,2,2012-07-20,I-70,Roadkill,Dead
-AF22,F,2,2012-10-05,Idaho Springs,Roadkill,Dead
-AF995,F,2,2012-06-23,Sunshine Canyon,Roadkill,Dead
+AM07,M,null,2008-19-04,Highway 7,Roadkill,Dead
+AM09,M,2.5,2008-27-12,Hwy 34 (mile 70),Roadkill,Dead
+AF10,F,null,2008-13-02,I-70,Roadkill,Dead
+AF19,F,null,2010-05-11,"Foothills Hwy, N.",Roadkill,Dead
+AF11,F,null,2008-20-08,US-40/Empire,Roadkill,Dead
+AF37,F,null,2009-11-08,I-70,Roadkill,Dead
+AF58,F,null,2010-03-06,null,Roadkill,Dead
+AM63,M,null,2010-30-09,null,Roadkill,Dead
+AM78,M,null,2011-12-05,Soda Creel/I-70,Roadkill,Dead
+AF91,F,2,2012-20-07,I-70,Roadkill,Dead
+AF22,F,2,2012-05-10,Idaho Springs,Roadkill,Dead
+AF995,F,2,2012-23-06,Sunshine Canyon,Roadkill,Dead
+
