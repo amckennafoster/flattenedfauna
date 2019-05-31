@@ -5,11 +5,13 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:dcat="http://www.w3.org/ns/dcat#">
+    xmlns:dci="http://schema.datacite.org/meta/kernel-4/metadata.xsd">
 
+<dci:identifier identifierType="DOI">10.9999/example</dci:identifier>
+<dci:alternateidentifier alternateidentifiertype="Local accession number">123456</dci:alternateidentifier>
 <dc:datasetName></dc:datasetName>
 <dc:creator></dc:creator>
-<dcat:contactPoint></dcat:contactPoint>
+<dci:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org/">802398439</dci:nameIdentifier>
 <dc:rightsHolder></dc:rightsHolder>
 <dwc:institutionID></dwc:institutionID>
 <dc:coverageSpatial></dc:coverageSpatial>
@@ -23,7 +25,10 @@
 <dc:language></dc:language>
 <dc:source></dc:source>
 <dwc:taxon></dwc:taxon>
-<ddi:FundingInformation></ddi:FundingInformation>
+
+<dci:fundingReference>
+	<dci:funderName></dci:fundeName>
+</dci:fundingReference>
 <dc:subject></dc:subject>
 
 </metadata>
