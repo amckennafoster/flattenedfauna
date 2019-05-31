@@ -12,7 +12,6 @@
 <dc:datasetName>adventureScientists_WildlifeConnectivityDataset</dc:datasetName>
 <dc:creator>https://www.adventurescientists.org/</dc:creator>
 <dci:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org/">802398439</dci:nameIdentifier>
-<dcat:contactPoint>https://www.adventurescientists.org/access-data-sets.html</dcat:contactPoint>
 <dc:rightsHolder>https://www.adventurescientists.org/</dc:rightsHolder>
 <dwc:institutionID></dwc:institutionID>
 <dc:coverage.spatial>Global</dc:coverage.spatial>
