@@ -7,11 +7,11 @@
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:dci="http://schema.datacite.org/meta/kernel-4/metadata.xsd">
 
-<dci:identifier identifierType="DOI">10.9999/example</identifier>
-<dci:alternateidentifier alternateidentifiertype="Local accession number">123456</alternateidentifier>
+<dci:identifier identifierType="DOI">10.9999/example</dci:identifier>
+<dci:alternateidentifier alternateidentifiertype="Local accession number">123456</dci:alternateidentifier>
 <dc:datasetName>adventureScientists_WildlifeConnectivityDataset</dc:datasetName>
 <dc:creator>https://www.adventurescientists.org/</dc:creator>
-<dci:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org/">802398439</nameIdentifier>
+<dci:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org/">802398439</dci:nameIdentifier>
 <dcat:contactPoint>https://www.adventurescientists.org/access-data-sets.html</dcat:contactPoint>
 <dc:rightsHolder>https://www.adventurescientists.org/</dc:rightsHolder>
 <dwc:institutionID></dwc:institutionID>
@@ -27,7 +27,7 @@
 <dc:source>https://www.adventurescientists.org/</dc:source>
 <dwc:taxon></dwc:taxon>
 <dci:fundingReference>
-	<xci:funderName></dci:fundeName>
+	<dci:funderName></dci:fundeName>
 </dci:fundingReference>
 <dc:subject>Roadkill, citizen science</dc:subject>
 
