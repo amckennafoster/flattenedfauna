@@ -5,13 +5,13 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:dcat="http://www.w3.org/ns/dcat#"
-	xsi:schemaLocation="http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+	xmlns:dci="http://schema.datacite.org/meta/kernel-4/metadata.xsd">
 
-<xsi:identifier identifierType="DOI">10.9999/example</identifier>
-<xsi:alternateidentifier alternateidentifiertype="Local accession number">123456</alternateidentifier>
+<dci:identifier identifierType="DOI">10.9999/example</identifier>
+<dci:alternateidentifier alternateidentifiertype="Local accession number">123456</alternateidentifier>
 <dc:datasetName>adventureScientists_WildlifeConnectivityDataset</dc:datasetName>
 <dc:creator>https://www.adventurescientists.org/</dc:creator>
+<dci:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org/">802398439</nameIdentifier>
 <dcat:contactPoint>https://www.adventurescientists.org/access-data-sets.html</dcat:contactPoint>
 <dc:rightsHolder>https://www.adventurescientists.org/</dc:rightsHolder>
 <dwc:institutionID></dwc:institutionID>
@@ -26,9 +26,9 @@
 <dc:language>English</dc:language>
 <dc:source>https://www.adventurescientists.org/</dc:source>
 <dwc:taxon></dwc:taxon>
-<xsi:fundingReference>
-	<xsi:funderName></ddi:fundeName>
-</xsi:fundingReference>
+<dci:fundingReference>
+	<xci:funderName></dci:fundeName>
+</dci:fundingReference>
 <dc:subject>Roadkill, citizen science</dc:subject>
 
 </metadata>
