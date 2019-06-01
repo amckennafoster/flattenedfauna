@@ -1,0 +1,16 @@
+VariableName,dataType,description,controlledVocabularyValues,valuesList,missingValuesExplanation,collectionMethods,cleaningOrAnonymization
+REP_Agen,string,agency that collected the data,Null,"FW, AOT",none,reporting agency,removed special character &
+Latitude,Numeric,Latitude of event,Null,Null,none,"GPS, or extrapolated from text location",removed instances with no location
+Longitude,Numeric,Longitude of event,Null,Null,none,"GPS, or extrapolated from text location",removed instances with no location
+ObjectID,Numeric,Unique identifier of observation,Null,Null,none,reporting agency,none
+MSRI_Code,String,"Identifies animal or ""other""",Null,"Deer, Moose, Bear, ","AOT often called this ""other"" and put animal name in comments. Consider merging these. ",FW used this to describe the animal. ,"Blank cells replaced with 'Null', trimmed white space"
+MSRI_DESCR,String,Comments on animal found. ,Null,Free text description of animal. ,FW did not report this. ,Observer recorded,"Blank cells replaced with 'Null', trimmed white space"
+COMMENT,String,Comments on animal found by AOT only,Null,Free text description of animal. ,FW did not report this. ,Observer recorded,"Blank cells replaced with 'Null', trimmed white space"
+Date,ISO 8601 YYYY-MM-DD,Date found or reported. ,Null,Dates between 1971-2006,FW did not report this. ,Observer recorded,"Blank cells replaced with 'Null', trimmed white space"
+TOWN_ID,Numeric,Code based on town ID,http://www.nhtsa.gov/nhtsa/stateCatalog/states/vt/docs/VT_Coding_Instructions_rev%204_16_2012.pdf,Null,FW did not report this. ,Observer recorded,"Blank cells replaced with 'Null', trimmed white space"
+ROUTE_DES,String,Highway type and number,Null,Null,FW did not report this. ,Observer recorded,"Blank cells replaced with 'Null', trimmed white space"
+ROUTE ,Numeric,Highway number,Null,Null,FW did not report this. ,Observer recorded,"Blank cells replaced with 'Null', trimmed white space"
+BEGIN_MM,Numeric,Begin Mile Marker,Null,Always matches END_MM,FW did not report this. ,Observer recorded,changed 0 to -9999 since FW did not collect location data this way
+END_MM,Numeric,End Mile Marker,Null,Always matches BEGIN_MM,FW did not report this. ,Observer recorded,changed 0 to -9999 since FW did not collect location data this way
+LRS_CODE,String,Aggregates highway number with town ID,Null,"First part should match ROUTE, second part should match TOWN_ID",FW did not report this. ,Observer recorded,"Blank cells replaced with 'Null', trimmed white space"
+LOCATION,String,Detailed free text description of where the animal was found. ,Null,Null,AOT did not report this. ,Observer recorded,"Blank cells replaced with 'Null', trimmed white space"
