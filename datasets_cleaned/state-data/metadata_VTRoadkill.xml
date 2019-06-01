@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <metadata
+
+	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/"
+
+     xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+
+	  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	  xmlns:dci="http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+
+      <dci:identifier identifierType="DOI">10.9999/example</dci:identifier>
+
+      <dci:alternateidentifier alternateidentifiertype="Local accession number">123456</dci:alternateidentifier>
+
+      <dc:datasetName>VTVehicleAnimalCollisions1971-2006</dc:datasetName>
+
+      <dc:creator>https://vcgi.vermont.gov</dc:creator>
+
+      <dci:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org/">802398439</dci:nameIdentifier>
+
+      <dc:rightsHolder>https://vcgi.vermont.gov</dc:rightsHolder>
+
+      <dwc:institutionID></dwc:institutionID>
+
+      <dc:coverage.spatial>Vermont</dc:coverage.spatial>
+
+      <dc:coverage.temporal>1971-2006</dc:coverage.temporal>
+
+      <dc:description>Records for roadkilled animals collected by VT Agency of Transportation and VT Fish and Wildlife</dc:description>
+
+      <dwc:samplingProtocol>Observations are recorded by Agency of Transportation and Fish and Wildlife employees using unknown and varied protocols</dwc:samplingProtocol>
+
+      <dc:license></dc:license>
+
+      <dc:identifier></dc:identifier>
+
+      <dc:extent></dc:extent>
+
+      <dc:FileFormat></dc:FileFormat>
+
+      <dc:language>English</dc:language>
+
+      <dc:source>https://vcgi.vermont.gov</dc:source>
+
+      <dwc:taxon></dwc:taxon>
+
+      <dci:fundingReference>
+
+	      <dci:funderName></dci:fundeName>
+
+      </dci:fundingReference>
+
+      <dc:subject>Roadkill, transportation</dc:subject>
+
+</metadata>
