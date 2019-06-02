@@ -20,16 +20,29 @@ Rename column headers:
 
 
 Park renamed to location
+
 Latitude renamed to decimalLatitude
+
 Longitude renamed to decimalLongitude
+
 Mortality Date renamed to eventDate
+
 Species renamed to vernacularName
+
 GBIF renamed to taxonID
+
 Total Animals renamed to individualCount
+
 Adult Female renamed to femaleAdult
+
 Sex renamed to sex
+
 Age_Class renamed to lifeStage
+
 Mortality Type renamed to mortalityType
+
 Original formatted date renamed to dateOriginal
+
 Easting renamed to easting
+
 Northing renamed to northing
