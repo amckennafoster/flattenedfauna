@@ -1,0 +1,15 @@
+variableName,metadataElement,dataType,description,controlledVocabularyValues,valuesList,missingValuesExplanation,collectionMethods,cleaningOrAnonymization
+Park,location,String,Name of the Park,None,None,None,None,None
+Latitude,decimalLatitude,Double,Latitude of event,Null,Null,None,None,Calculated
+Longitude,decimalLongitude,Double,Longitude of event,Null,Null,None,None,Calculated
+Mortality Date,eventDate,Date,Date animal was found,None,None,None,None,None
+Species,vernacularName,String,Species of animal,"Black Bear, Mountain Goat, Grizzly Bear, Wolverine",None,None,None,None
+GBIF,taxonID,String,URI for GBIF record,None,None,None,None,None
+Total Animals,individualCount,Integer,Number of animals,None,None,None,None,None
+Adult Female,femaleAdult,Integer,"Indicate whether animal was a female (1=yes, 0=no)",None,None,None,None,None
+Sex,sex,String,Sex of animal,"Male, Female, Unknown",None,None,None,None
+Age_Class,lifeStage,String,Age of animal,"YOY (Young of this year), YLY (Young of last year), Adult, Unknown, Mixed group, Juvenile",None,None,None,None
+Mortality Type,mortalityType,String,How the animal died,"Highway, Railway",None,None,None,None
+Original formatted date,dateOriginal,Date,Date animal was found,None,None,None,None,Formatted
+Easting,easting,Integer,Easting UTM coordinate,None,None,None,None,None
+Northing,northing,Integer,Northing UTM coordinate,None,None,None,None,None
