@@ -14,6 +14,8 @@ Removed oberservations with no coordinates
 
 Converted coordinates from UTM to Latitude and Longitude using ArcGIS
 
+GBIF identifier added to each record
+
 Rename column headers:
 
 
