@@ -13,3 +13,5 @@ Changed Park abbreviation 'GNP' to 'Glacier National Park'
 Removed oberservations with no coordinates
 
 Converted coordinates from UTM to Latitude and Longitude using ArcGIS
+
+GBIF identifier added to each record
